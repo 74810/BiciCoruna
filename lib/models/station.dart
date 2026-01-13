@@ -34,7 +34,7 @@ class StationStatus {
       id: json['station_id'],
       numBikesAvailable: json['num_bikes_available'],
       numDocksAvailable: json['num_docks_available'],
-      numDocksDisabled: json['num_docks_disable'] ?? 0,
+      numDocksDisabled: json['num_docks_disabled'] ?? 0,
       lastReported: json['last_reported'],
     );
   }
